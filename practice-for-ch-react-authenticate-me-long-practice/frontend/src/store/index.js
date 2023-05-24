@@ -4,6 +4,7 @@ import sessionReducer from './session';
 
 const rootReducer = combineReducers({
   session: sessionReducer
+  // session //shorthand for above - only if k-v are same, need to import as session if desired.
 });
 
 let enhancer;

@@ -21,7 +21,9 @@ class Api::SessionsController < ApplicationController
   end
 
   def destroy
+    # debugger
     logout!
+    # debugger
     render json: { message: 'success' }
   end
 end

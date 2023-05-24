@@ -32,6 +32,7 @@ export const loginUser = (user) => async (dispatch) => {
         // const errorMessage = 'Custom error message goes here';
         // throw new Error(errorMessage);
     }
+    return res;
 }
 
 export const logoutUser = (user) => async (dispatch) => {
